@@ -1,0 +1,60 @@
+%section#profile.section
+  .container
+    .row
+      .col-md-12.headline
+        %h2 David R. Hemmat
+        %p Full stack developer
+      .col-md-3.col-sm-6
+        = image_tag("portrait.jpg", class:"avatar")
+      .col-md-3.col-sm-6
+        .profile-widget
+          %h3 Skillset
+          %h5 Ruby on Rails
+          .skill-bar
+            .skill-rate-on
+            .skill-rate-on
+            .skill-rate-on
+            .skill-rate-on
+          %h5 HTML / CSS3 / SASS
+          .skill-bar
+            .skill-rate-on
+            .skill-rate-on
+            .skill-rate-on
+            .skill-rate-off
+          %h5 Javascript
+          .skill-bar
+            .skill-rate-on
+            .skill-rate-on
+            .skill-rate-on
+            .skill-rate-off
+          %h5 Java / C# / Android
+          .skill-bar
+            .skill-rate-on
+            .skill-rate-on
+            .skill-rate-off
+            .skill-rate-off
+        .profile-widget
+          %h3 Social Profiles
+          %ul.widget-social
+            %li
+              %a{:href => "https://github.com/dhemmat"}
+                %i.fa.fa-github-alt
+            %li
+              %a{:href => "https://www.linkedin.com/in/dhemmat"}
+                %i.fa.fa-linkedin
+      / .col-md-3
+      .col-md-6.col-sm-12
+        %h3 Professional Profile
+        %p
+          I'm a full stack web developer working mainly with
+          = succeed "." do
+            %strong Ruby on Rails
+          = succeed "," do
+            %a{:href => "http://condenast.com"} Condé Nast
+          = succeed "," do
+            %a{:href => "http://sixredmarbles.com"} Six Red Marbles
+          %a{:href => "http://shopkeep.com"} ShopKeep
+          and
+          = succeed "." do
+            %a{:href => "http://couplewise.com"} Couplewise
+        %p I enjoy challenges and regularly look into learning new technologies. My go-to platform for development is Rails as I have become very experienced in it and I am able to deliver high quality code and functionality very rapidly. I am currently working on improving my Angular.js skills, and I am actively working on a number of personal and professional development projects.

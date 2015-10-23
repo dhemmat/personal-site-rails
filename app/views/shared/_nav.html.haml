@@ -1,0 +1,27 @@
+/ Navigation start
+%nav.navbar.navbar-custom.navbar-fixed-top.navbar-color{:role => "navigation"}
+  .container
+    / Brand and toggle get grouped for better mobile display
+    .navbar-header
+      %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{:href => "#"} David R. Hemmat
+    / Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      %ul.nav.navbar-nav.navbar-right
+        %li
+          %a{:href => "#intro"} Home
+        %li
+          %a{:href => "#profile"} Profile
+        %li
+          %a{:href => "#services"} Services
+        %li
+          %a{:href => "#resume"} Resume
+        %li
+          %a{:href => "#clients"} Clients
+        %li
+          %a{:href => "#contact"} Contact
+/ Navigation end

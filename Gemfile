@@ -31,7 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'haml-rails'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'font-awesome-sass', '~> 4.4.0'
 

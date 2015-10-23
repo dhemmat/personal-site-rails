@@ -1,0 +1,38 @@
+%section#portfolio.section
+  .container
+    .row
+      .col-md-12.headline
+        %h2 Portfolio
+        %p Some of my work.
+      .col-md-3.col-sm-6
+        %a.pop-up{:href => "assets/shopkeep.png", :title => "ShopKeep (Ruby on Rails): Multi-tenant ecommerce platform, REST API, online shop, and supporting gem and administration console."}
+          .portfolio-item
+            .portfolio-item-preview
+              %img{:alt => "", :src => "assets/shopkeep.png"}/
+            .portfolio-item-description
+              %h3 ShopKeep
+              %p Rails Ecommerce Platform
+      .col-md-3.col-sm-6
+        %a.pop-up{:href => "assets/couplewise.png", :title => "Couplewise (Ruby on Rails + MongoDB): Ongoing back-end development of new features and maintenance."}
+          .portfolio-item
+            .portfolio-item-preview
+              %img{:alt => "", :src => "assets/couplewise.png"}/
+            .portfolio-item-description
+              %h3 Couplewise
+              %p Back-end Development
+      .col-md-3.col-sm-6
+        %a.pop-up{:href => "assets/ajs.png", :title => "AJS Design (Ruby on Rails + Amazon S3): Upgrade Rails from version 2.3 to version 3.2 and implement various S3 related security fixes."}
+          .portfolio-item
+            .portfolio-item-preview
+              %img{:alt => "", :src => "assets/ajs.png"}/
+            .portfolio-item-description
+              %h3 AJS Design
+              %p Rails Version Upgrade
+      .col-md-3.col-sm-6{"data--delay" => ".2s"}
+        %a.pop-up{:href => "assets/srm.jpg", :title => "Six Red Marbles (Backbone.js + Ruby on Rails): Front end development of online game, implementation of Redis cache and data storage on Rails"}
+          .portfolio-item
+            .portfolio-item-preview
+              %img{:alt => "", :src => "assets/srm.jpg"}/
+            .portfolio-item-description
+              %h3 Six Red Marbles
+              %p Front-end development
